@@ -6,7 +6,10 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Contact />
+    <Contact name="Sara" avatar="https://randomuser.me/api/portraits/men/57.jpg"/>
+    <Contact name="Paul"  avatar="https://randomuser.me/api/portraits/men/54.jpg" isOnline/>
+    <Contact name="Djamila"  avatar="https://randomuser.me/api/portraits/men/52.jpg"/>
+    <Contact name="Bruno"  avatar="https://randomuser.me/api/portraits/men/51.jpg" isOnline/>
   </React.StrictMode>,
   document.getElementById('root')
 );
