@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ContactList from './components/ContactList';
+
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ContactList/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
